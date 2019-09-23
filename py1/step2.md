@@ -1,3 +1,14 @@
+## Execute in Terminal
+
+Katacoda has integration to automatically execute the commands for the terminal.
+
+This is done by adding `execute` to the markdown code block, for example:
+<pre>`echo "Run in Terminal"`{{execute}}</pre>
+
+This creates:
+`echo "Run in Terminal"`{{execute}}
+
+
 ## Execute on different hosts 
 
 When using the `terminal-terminal` layout and multiple hosts within the cluster, you can have commands executed on which host is required. This is used within our [Kubernetes scenarios](https://www.katacoda.com/courses/kubernetes/getting-started-with-kubeadm).
