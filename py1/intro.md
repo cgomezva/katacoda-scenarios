@@ -1,7 +1,6 @@
 # Bienvenido 
 
-![Katacoda Logo](https://github.com/cgomezva/katacoda-scenarios/py1/assets/giphy.gif)
-
+![Katacoda Logo](py1/assets/giphy.gif)
 ## Delanito
 
 En este breve curso no aprendera nada...
