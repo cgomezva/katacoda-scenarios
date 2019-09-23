@@ -1,4 +1,5 @@
-Paque pilles la version de python click aqui `some-command`{{python --version}}
+Paque pilles la version de python click aqui `python --version`{{execute HOST1}}
+
 
 Terminal Integration
 Allow a code block to be executed `some-command`{{python --version}}
