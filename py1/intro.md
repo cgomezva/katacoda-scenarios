@@ -1,6 +1,6 @@
 # Bienvenido 
 
-![Katacoda Logo](/katacoda-scenarios/py1/img/giphy.gif)
+![Katacoda Logo](https://github.com/cgomezva/katacoda-scenarios/katacoda-scenarios/py1/img/giphy.gif)
 
 ## Delanito
 
