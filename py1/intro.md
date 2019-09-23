@@ -1,4 +1,7 @@
 # Bienvenido 
+
+![Katacoda Logo](/katacoda-scenarios/py1/img/giphy.gif)
+
 ## Delanito
 
 En este breve curso no aprendera nada...
