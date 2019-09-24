@@ -19,7 +19,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+	  "code": "docker run -p 8888:8888 jupyter/scipy-notebook"
     },
     "finish": {
       "text": "finish.md"
@@ -31,9 +32,10 @@
     "dashboards": [
       {"name": "Hola Jupyter","port": 8888},
 	  {"name": "URL", "href": "https://www.google.com"},
-      {"name": "Placeholder", "href": "http://jupyterhubti.suramericana.com.co/user/carlgovl/notebooks/cg_prb/Untitled.ipynb"},
-      {"name": "Placeholder", "href": "https://mybinder.org/v2/gh/binder-examples/rocker/master?filepath=index.ipynb"},
-      {"name": "Placeholder", "href": "https://hub.gke.mybinder.org/user/binder-examples-rocker-w07j51lf/notebooks/index.ipynb"}	  
+      {"name": "j1", "href": "http://localhost:8008/notebooks/pruebas/Untitled1.ipynb"},
+      {"name": "j2", "href": "http://jupyterhubti.suramericana.com.co/user/carlgovl/notebooks/cg_prb/Untitled.ipynb"},
+      {"name": "j3", "href": "https://mybinder.org/v2/gh/binder-examples/rocker/master?filepath=index.ipynb"},
+      {"name": "j4", "href": "https://hub.gke.mybinder.org/user/binder-examples-rocker-w07j51lf/notebooks/index.ipynb"}
     ],
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
   },
