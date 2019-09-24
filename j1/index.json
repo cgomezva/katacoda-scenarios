@@ -23,7 +23,19 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "prepareContainer.sh",
+          "target": "~/"
+        },
+        {
+          "file": "runPrep.sh",
+          "target": "~/"
+        }
+      ]
+    }  
   },
   "environment": {
     "uilayout": "terminal-iframe",
