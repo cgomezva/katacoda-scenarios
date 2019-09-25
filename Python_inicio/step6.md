@@ -8,7 +8,7 @@ Ejemplos:
 
 Creamos la lista de áreas
 
-`areas = ["Salón", 11.25, "Cocina", 18.0, "habitación", 10.75, "Baño", 9.50] `{{execute HOST1}}
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
 
 Use slicing para crear una lista con las habitaciones del piso de abajo: 
 
@@ -34,7 +34,7 @@ Ejemplo:
 
 Creamos la lista de áreas
 
-`areas = ["Salon", 11.25, "Cocina", 18.0, "habitación", 10.75, "Bano", 9.50] `{{execute HOST1}}
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
 
 Forma alternativa:
 

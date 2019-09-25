@@ -1,12 +1,12 @@
 ## Reemplazando elementos en una lista
-Para reemplazar el valor de un elemento de la lista referenciamos su posición y usamos el operador de asignación para darle un nuevo valor. 
+Para reemplazar el valor de un elemento de la lista referenciamos su posicion y usamos el operador de asignacion para darle un nuevo valor. 
 Ejemplos:
 
 Creamos la lista de areas
 
 `areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
 
-Corregimos el area del baño
+Corregimos el area del bano
 
 `areas[7] = 10.50`{{execute HOST1}}
 
@@ -18,7 +18,7 @@ Imprimir areas
 `print(areas) `{{execute HOST1}}
 
 ## Extendiendo una lista
-Para añadir elementos a una lista podemos usar el operador ‘+’
+Para anadir elementos a una lista podemos usar el operador ‘+’
 
 x = ["a", "b", "c", "d"]
 
@@ -28,7 +28,7 @@ Creamos la lista de áreas
 
 `areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
 
-Añadimos la piscina con su respectiva área:
+Anadimos la piscina con su respectiva área:
 
 `areas_1 = areas + ["piscina", 24.5] `{{execute HOST1}}
 
@@ -47,7 +47,7 @@ Los índices de la lista después de eliminar un elemento cambian.
 Ejemplos:
 
 Creamos la lista de areas
-`areas = ["Salón", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50,"piscina", 24.5,"garaje", 15.45] `{{execute HOST1}}
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50,"piscina", 24.5,"garaje", 15.45] `{{execute HOST1}}
 
 Vamos a borrar la piscina y su área
 
