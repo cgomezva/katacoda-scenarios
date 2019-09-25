@@ -20,7 +20,7 @@
     ],
     "intro": {
       "text": "intro.md",
-	  "code": "docker run -p 8888:8888 jupyter/scipy-notebook"
+	  "code": "iniciar.sh"
     },
     "finish": {
       "text": "finish.md"
