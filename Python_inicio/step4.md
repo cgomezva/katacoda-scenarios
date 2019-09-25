@@ -3,7 +3,7 @@ Una lista en Python es una colección de objetos a la que se le puede agregar y 
 
 Para definir una lista con elementos, simplemente ponemos los elementos dentro de los corchetes separados con comas.
 
-`lista = [1, “dos”, False, [45, “cien”]] `{{execute HOST1}}
+`lista = [1, 'dos', False, [45, 'cien']] `{{execute HOST1}}
 
 Como podemos ver, nuestra lista tiene los siguientes elementos: 
 
@@ -17,11 +17,11 @@ Crea la lista a partir de variables:
 
 `habitacion = 10.75 `{{execute HOST1}}
 
-`baño = 9.50 `{{execute HOST1}}
+`bano = 9.50 `{{execute HOST1}}
 
 Crear una lista de las áreas
 
-`areas = [salon, cocina, habitacion, baño] `{{execute HOST1}}
+`areas = [salon, cocina, habitacion, bano] `{{execute HOST1}}
 
 Imprimir la variable áreas
 

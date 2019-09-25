@@ -1,35 +1,62 @@
-## Acceder a los datos de la lista
+## Reemplazando elementos en una lista
+Para reemplazar el valor de un elemento de la lista referenciamos su posición y usamos el operador de asignación para darle un nuevo valor. 
+Ejemplos:
 
-Para acceder a un dato particular en una lista de Python usamos un concepto llamado **indexación**, la idea es usar la posición del objeto en la lista teniendo en cuenta que el primer objeto esta en la posición ** ‘0’**. 
+Creamos la lista de areas
 
-Ejemplo:
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
+
+Corregimos el area del baño
+
+`areas[7] = 10.50`{{execute HOST1}}
+
+Cambiamos  "habitacion" to "habitacion de huespedes"
+
+`areas[5] = "habitacion de huespedes"`{{execute HOST1}}
+
+Imprimir areas
+`print(areas) `{{execute HOST1}}
+
+## Extendiendo una lista
+Para añadir elementos a una lista podemos usar el operador ‘+’
+
+x = ["a", "b", "c", "d"]
+
+y = x + ["e", "f"]
 
 Creamos la lista de áreas
 
-`areas = ["Salón", 11.25, "Cocina", 18.0, "Habitación", 10.75, "Baño", 9.50] `{{execute HOST1}}
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50] `{{execute HOST1}}
 
-Imprimimos el SEGUNDO elemento de la lista
+Añadimos la piscina con su respectiva área:
 
-`print(areas [1]) `{{execute HOST1}}
+`areas_1 = areas + ["piscina", 24.5] `{{execute HOST1}}
 
-Imprimimos el último elemento de la lista
+Imprimir areas, areas_1 y areas_2
 
-`print(areas [7]) `{{execute HOST1}}
+`print(areas) `{{execute HOST1}}
 
-## Cálculos con datos de una lista
-Ya sabemos cómo extraer datos de una lista, ahora podemos usarlos para hacer cálculos con ellos, el resultado la podemos llevar una variable para usarla después.
-Ejemplo:
+`print(areas_1) `{{execute HOST1}}
 
-Creamos la lista de áreas
+## Borrando elementos de una lista
 
-`areas = ["Salón", 11.25, "Cocina", 18.0, "habitación", 10.75, "Baño", 9.50] `{{execute HOST1}}
+Para borrar un elemento de una lista usamos el comando ‘del()’, dentro del paréntesis especificamos el o los elementos a eliminar. 
+
+Los índices de la lista después de eliminar un elemento cambian. 
+
+Ejemplos:
+
+Creamos la lista de areas
+`areas = ["Salón", 11.25, "Cocina", 18.0, "habitacion", 10.75, "Bano", 9.50,"piscina", 24.5,"garaje", 15.45] `{{execute HOST1}}
+
+Vamos a borrar la piscina y su área
+
+`del(areas[9]) `{{execute HOST1}}
+
+`del(areas[8]) `{{execute HOST1}}
+
+Imprimir áreas
+
+`print(areas) `{{execute HOST1}}
 
 
-Suma del área de la cocina y la habitación: area_comer_dormir
-
-`area_comer_dormir = areas[3] + areas[5] `{{execute HOST1}}
-
-
-Imprime la variable area_comer_dormir
-
-`print(area_comer_dormir) `{{execute HOST1}}

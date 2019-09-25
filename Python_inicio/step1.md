@@ -1,7 +1,10 @@
 ## Verificar e iniciar Python
 Para verificar la versión instalada:
+
 ` python --version`{{execute HOST1}}
+
 Iniciamos el editor Python
+
 ` python `{{execute HOST1}}
 
 Probemos mediante la instrucción print algunas operaciones básicas

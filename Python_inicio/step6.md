@@ -1,28 +1,51 @@
-## Listas
-Una lista en Python es una colección de objetos a la que se le puede agregar y quitar objetos. 
+## Slicing and dicing
 
-Para definir una lista con elementos, simplemente ponemos los elementos dentro de los corchetes separados con comas.
+Seleccionar múltiples valores de una lista se le llama “slicing”
 
-`lista = [1, “dos”, False, [45, “cien”]] `{{execute HOST1}}
+my_list[start:end]
 
-Como podemos ver, nuestra lista tiene los siguientes elementos: 
+Ejemplos:
 
-un entero (1), una cadena de texto (“dos”), un booleano (False) y otra lista con dos elementos (un entero 45 y una cadena de texto “cien”).
+Creamos la lista de áreas
 
-Crea la lista a partir de variables:
+`areas = ["Salón", 11.25, "Cocina", 18.0, "habitación", 10.75, "Baño", 9.50] `{{execute HOST1}}
 
-`salon = 11.25 `{{execute HOST1}}
+Use slicing para crear una lista con las habitaciones del piso de abajo: 
 
-`cocina = 18.0 `{{execute HOST1}}
+`abajo = areas[0:4] `{{execute HOST1}}
 
-`habitacion = 10.75 `{{execute HOST1}}
+Use slicing para crear una lista con las habitaciones del piso de arriba: 
 
-`baño = 9.50 `{{execute HOST1}}
+`arriba = areas[4:8] `{{execute HOST1}}
 
-Crear una lista de las áreas
+Imprima abajo y arriba
 
-`areas = [salon, cocina, habitacion, baño] `{{execute HOST1}}
+`print(abajo) `{{execute HOST1}}
 
-Imprimir la variable áreas
+`print(arriba) `{{execute HOST1}}
 
-`print(areas) `{{execute HOST1}}
+También es posible no especificar uno de los índices en la consulta:
+
+- Si omitimos el de inicio quiere decir que comenzaremos con el primer elemento de la lista. 
+
+- Si omitimos el de fin implica que mostraremos hasta el último elemento de la misma.
+
+Ejemplo:
+
+Creamos la lista de áreas
+
+`areas = ["Salon", 11.25, "Cocina", 18.0, "habitación", 10.75, "Bano", 9.50] `{{execute HOST1}}
+
+Forma alternativa:
+
+`abajo = areas[:4] `{{execute HOST1}}
+
+Forma alternativa:
+
+`arriba = areas[4:] `{{execute HOST1}}
+
+Imprima abajo y arriba
+
+`print(abajo) `{{execute HOST1}}
+
+`print(arriba) `{{execute HOST1}}
