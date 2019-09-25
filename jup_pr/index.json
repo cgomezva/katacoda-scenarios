@@ -33,7 +33,8 @@
       {"name": "j1", "href": "http://localhost:8888"},
       {"name": "j2", "href": "https://localhost:8888"},
       {"name": "j3", "href": "http://localhost:8888/tree"},
-      {"name": "j4", "href": "https://localhost:8888/tree"}
+      {"name": "j4", "href": "https://localhost:8888/tree"},
+      {"name": "j5", "href": "https://127.0.0.1:8888/tree"}
     ],
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n"
   }, 
