@@ -6,32 +6,36 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Iniciar Python 1/8",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Variables 2/8",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Variables 3/8",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Listas 4/8",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Listas 5/8",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Listas 6/8",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Listas 7/8",
         "text": "step7.md"
+      },
+      {
+        "title": "Evalua tus conocimientos",
+        "text": "step8.md"
       }
     ],
     "intro": {
