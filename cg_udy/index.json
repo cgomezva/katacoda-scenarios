@@ -23,8 +23,7 @@
           "target": "~/"
         }
       ]
-    }  
-	
+    }
   },
   "environment": {
     "uilayout": "terminal-iframe",
