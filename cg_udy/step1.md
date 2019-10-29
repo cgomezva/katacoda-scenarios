@@ -3,5 +3,8 @@
 
 `docker exec -it jupyter bash -c 'cd ~/work && git clone https://github.com/cgomezva/curso_udy.git'`{{execute}}
 
-`docker logs jupyter`{{execute}}
+`docker logs jupyter >> nn.txt`{{execute}}
+
+`grep -o 'token[^"]*' nn.txt `{{execute}}
+
 
