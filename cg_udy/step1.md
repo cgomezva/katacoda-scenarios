@@ -4,7 +4,7 @@ https://blog.ouseful.info/2019/02/05/on-not-faffing-around-with-jupyter-docker-c
 
 `export JUPYTER_TOKEN='a'`{{execute}}
 
-`docker run --rm -d --name jupyter -p 8888:8888 -e JUPYTER_TOKEN jupyter/base-notebook`{{execute}}
+`docker run -d --name jupyter -p 8888:8888 -e JUPYTER_TOKEN jupyter/scipy-notebook:83ed2c63671f`{{execute}}
 
 `docker exec -it jupyter bash -c 'cd ~/work && git clone https://github.com/cgomezva/curso_udy.git'`{{execute}}
 
